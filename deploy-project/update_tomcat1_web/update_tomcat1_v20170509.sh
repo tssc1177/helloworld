@@ -1,10 +1,10 @@
 #!/bin/sh
-#########################################################
-# This script is made by zhaoshuai in 20170509.		#
-# for update coinnice web				#
+##########################################################
+# This script is made by zhaoshuai in 20170509.		      #
+# for update coinnice web				                     #
 # if you have any question please contact QQ:87482287.	#
-#########################################################
-###################### BEGIN ############################
+##########################################################
+###################### BEGIN #############################
 TIME=$(date +%Y%m%d-%H%M)
 TOMCAT_DIR=/usr/local/tomcat1
 WEB_ROOT=/www.spotweb.com
@@ -17,6 +17,7 @@ if [ ! -f "$1" -o -z "$1" ]
       sleep 1
       action "Code deployment ......" /bin/false
       echo "Please confirm the <*.war>" 
+      echo "Usage: /bin/sh $0 *.war "
       exit 1
    else
       echo "The <$1> will be deployed"
