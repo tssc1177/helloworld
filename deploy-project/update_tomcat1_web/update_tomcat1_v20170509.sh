@@ -1,8 +1,8 @@
 #!/bin/sh
 ##########################################################
-# This script is made by zhaoshuai in 20170509.		      #
-# for update coinnice web				                     #
-# if you have any question please contact QQ:87482287.	#
+# This script is made by zhaoshuai in 20170509.          #
+# for update coinnice web                                #
+# if you have any question please contact QQ:87482287.   #
 ##########################################################
 ###################### BEGIN #############################
 TIME=$(date +%Y%m%d-%H%M)
